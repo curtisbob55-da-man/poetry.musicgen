@@ -1,0 +1,13 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "npm start",
+    "healthcheckPath": "/health"
+  },
+  "env": {
+    "PORT": "8080",
+    "OPENAI_API_KEY": "your-api-key-here"
+  }
+}
